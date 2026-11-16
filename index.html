@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <h2 class="logo">My Portfolio</h2>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="theme-btn">Dark Mode</button>
+    </nav>
+  </header>
+
+  <!-- home section -->
+  <section id="home">
+    <p id="greeting"></p>
+    <h1>Hi, I am Om Roy</h1>
+    <p>I am a <span id="typing"></span><span id="cursor">|</span></p>
+    <a href="#contact" class="btn">Contact Me</a>
+  </section>
+
+  <!-- about section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! My name is Om Roy and I am studying B.Tech 
+      at KIET University. I like to make websites using HTML, CSS and JavaScript.
+      In my free time I like playing games and watching movies.
+    </p>
+    <p>
+      I am still learning but I want to become a web developer in the future.
+    </p>
+  </section>
+
+  <!-- skills section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Git &amp; GitHub</li>
+      <li>C++ Programming</li>
+     
+    </ul>
+  </section>
+
+  <!-- projects section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-box">
+
+      <div class="card">
+        <h3>To-Do List</h3>
+        <p>A simple app to add and delete daily tasks. Made using HTML, CSS and JS.</p>
+        <a href="#">View Project</a>
+      </div>
+
+      <div class="card">
+        <h3>Calculator</h3>
+        <p>A basic calculator that can add, subtract, multiply and divide.</p>
+        <a href="#">View Project</a>
+      </div>
+
+      <div class="card">
+        <h3>Weather App</h3>
+        <p>Shows the weather of any city by using a free weather API.</p>
+        <a href="#">View Project</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- contact section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name">
+      <input type="text" id="email" placeholder="Your Email">
+      <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+      <button type="submit" class="btn">Send</button>
+      <p id="form-msg"></p>
+    </form>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+  </footer>
+
+  <!-- back to top button -->
+  <button id="top-btn">Top</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
